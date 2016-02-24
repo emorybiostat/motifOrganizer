@@ -1,0 +1,36 @@
+<html>
+</head>
+<script src="prototype.js"></script>
+
+<script type="text/javascript">
+//alert("fuck!");
+function init(){
+	Event.observe("button", "click", show);
+}
+
+
+function show(){
+	var start = $("start").value;
+	var end = $("end").value;
+	//alert(start+" "+end);
+	var content = "<table>";
+	for(var i=start; i<=end; i++){
+		content+="<tr><td>"+i+"</td><td><img width='500' height='250' src='images/"+i+".png'/></td></tr>";
+	}
+	content+= "</table>";
+	//alert(content);
+	$("display").innerHTML = content;
+}
+</script>
+
+
+
+
+<head>
+<body onload="init();">
+<p>Display from:<input type="text" id="start"/> to <input type="end" id="end"/> <input id="button" type="button" value="show"></p>
+<div id="display"></div>
+
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+<HTML>
+<HEAD>
+  <TITLE>MotifOrganizer</TITLE>
+  <STYLE TYPE="text/css">@IMPORT URL("/common/pseudo-csg.css");</STYLE>
+</HEAD>
+<BODY>
+<!--#include virtual="/common/banner.inc" -->
+<!--#include virtual="/common/top.inc" -->
+<!--#include virtual="submenu.inc" -->
+<!--#include virtual="/common/topend.inc" -->
+<P><CENTER><TABLE CELLSPACING="0" BORDER="0" CELLPADDING="10" WIDTH="100%">
+  <TR>
+    <TD WIDTH="5%" VALIGN="TOP" ROWSPAN="10">
+    &nbsp;</TD> 
+    <TD COLSPAN="2" VALIGN="TOP" WIDTH="95%">
+    <H1><CENTER>Documentation for MotifOrganizer</CENTER></H1>
+    </TD>
+  </TR>
+  <TR>
+     
+    <TD VALIGN="TOP" WIDTH="20%">
+    <P ALIGN=RIGHT><A HREF="readme.pdf">Manual</A></TD> 
+    <TD VALIGN="TOP" WIDTH="75%">
+    The manual detailing MotifOrganizer usage.
+    </TD>
+  </TR>
+
+  <TR>
+     
+    <TD VALIGN="TOP" WIDTH="20%">
+    <P ALIGN=RIGHT><A HREF="bmc2.pdf">Maunscript</A></TD> 
+    <TD VALIGN="TOP" WIDTH="75%">
+    This file containing details about the algorithm and its implementation.</TD>
+  </TR>
+
+</TABLE>
+
+<!--#include virtual="/common/bottom.inc"-->
+
+</BODY>
+</HTML>

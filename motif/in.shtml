@@ -1,0 +1,123 @@
+<HTML>
+<HEAD>
+  <TITLE>MotifOrganizer</TITLE>
+  <STYLE TYPE="text/css">@IMPORT URL("/common/pseudo-csg.css");</STYLE>
+</HEAD>
+<BODY>
+
+<!--#include virtual="/common/banner.inc" -->
+<!--#include virtual="/common/top.inc" -->
+<!--#include virtual="submenu.inc" -->
+<!--#include virtual="/common/topend.inc" -->
+
+<P><CENTER><TABLE CELLSPACING="0" BORDER="0" CELLPADDING="10" WIDTH="100%">
+  <TR>
+    <TD WIDTH="5%" VALIGN="TOP" ROWSPAN="12">
+    &nbsp;</TD> 
+    <TD COLSPAN="2" VALIGN="TOP" WIDTH="95%">
+    <H1><CENTER>MotifOrganizer</CENTER></H1>
+    </TD>
+  </TR>
+  <TR>
+    <TD COLSPAN="2" VALIGN="TOP" WIDTH="95%">
+	MotifOrganizer is designed to cluster large sets of DNA sequence motifs to
+identify common patterns. Different motif widths are allowed. It uses a
+two-stage divide-conquer-combine strategy to achieve scalability and
+efficiency. The program and scripts are written in C++ and Perl, and can be
+run on Linux, Unix, Windows and Mac OS X as a command line executable. The
+program was co-developed with Misha Bilenky, Gordon Robertson, Steven Jones
+from Canada's BC Cancer Agency Genome Sciences Centre, and Gang Su at the
+Bioinformatics Program at University of Michigan.
+	</TD>  
+
+  </TR>
+
+  <TR>     
+    <TD VALIGN="TOP" WIDTH="20%">
+    <P ALIGN=RIGHT><A HREF="documents.shtml">Documentation</A></TD> 
+    <TD VALIGN="TOP" WIDTH="75%">
+    Includes the manual and the manuscript describing MotifOrganizer.
+    </TD>
+  </TR>
+
+  <TR>
+
+    <TD VALIGN="TOP" WIDTH="20%">
+    <P ALIGN=RIGHT><A HREF="bmc2.suppl.pdf">Supplementary Text</A></TD>
+    <TD VALIGN="TOP" WIDTH="75%">
+    Supplementary text, tables and figures.</TD>
+  </TR>
+
+  <TR>
+
+    <TD VALIGN="TOP" WIDTH="20%">
+    <P ALIGN=RIGHT><A HREF="data.shtml">Datasets used in this study</A></TD>
+    <TD VALIGN="TOP" WIDTH="75%">
+    Data files used in our study.</TD>
+  </TR>
+
+  <TR>
+
+    <TD VALIGN="TOP" WIDTH="20%">
+    <P ALIGN=RIGHT><A HREF="results.shtml">Full cisRED clustering result</A></TD>
+    <TD VALIGN="TOP" WIDTH="75%">
+        Gene names, sequences and FASTA format motif collections.
+  </TD>
+  </TR>
+
+  <TR>
+
+    <TD VALIGN="TOP" WIDTH="20%">
+    <P ALIGN=RIGHT><A HREF="match.shtml">All cisRED cluster match result</A></TD>
+    <TD VALIGN="TOP" WIDTH="75%">
+        Gene names, sequences and FASTA format motif collections.
+  </TD>
+  </TR>
+
+  <TR>
+
+    <TD VALIGN="TOP" WIDTH="20%">            
+    <P ALIGN=RIGHT><A HREF="top500.html">Browse top clusters</A></TD>
+    <TD VALIGN="TOP" WIDTH="75%">
+    Logo plots of the top 500 cisRED Human v.2 29.5K gene/motif clusters.
+  </TD>
+  </TR>
+
+  <TR>
+
+    <TD VALIGN="TOP" WIDTH="20%">
+    <P ALIGN=RIGHT><A HREF="getProg.shtml">Download program</A></TD>
+   <TD VALIGN="TOP" WIDTH="75%">
+    Bundled Perl scripts and pre-compiled executables needed to run MotifOrganizer</TD>
+</TR>
+
+<TR>
+    <TD VALIGN="TOP" WIDTH="20%">
+    <P ALIGN=RIGHT><A HREF="update.txt">Update & Bug Log</A></TD>
+    <TD VALIGN="TOP" WIDTH="75%">
+    Log of updates, bugs and fixes (currently empty).
+</TD>
+  </TR>
+
+  <TR>
+     
+    <TD VALIGN="TOP" WIDTH="20%">
+    <P ALIGN=RIGHT><A HREF="javascript:regpopup('MotifOrganizer')">Register</A></TD> 
+    <TD VALIGN="TOP" WIDTH="75%">
+    If you use MotifOrganizer, please register with us. It helps us to send you updates and bug-fixes.
+    </TD>
+  </TR>
+  <TR><TD COLSPAN="2">&nbsp;</TD></TR>
+  <TR>   
+  <TD COLSPAN="2" VALIGN="TOP" WIDTH="95%">
+    <H3> Contact </H3>
+	For bug report, questions or comments, please contact Steve Qin (qin@umich.edu).
+    </TD>
+  </TR>
+</TABLE>
+</CENTER>
+
+<!--#include virtual="/common/bottom.inc"-->
+
+</BODY>
+</HTML>

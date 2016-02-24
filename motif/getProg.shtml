@@ -1,0 +1,70 @@
+<HTML>
+<HEAD>
+  <TITLE>MotifOrganizer</TITLE>
+  <STYLE TYPE="text/css">@IMPORT URL("/common/pseudo-csg.css");</STYLE>
+</HEAD>
+<BODY>
+<!--#include virtual="/common/banner.inc" -->
+<!--#include virtual="/common/top.inc" -->
+<!--#include virtual="submenu.inc" -->
+<!--#include virtual="/common/topend.inc" -->
+
+<CENTER>
+<H1>Downloadable pre-compiled executables of MotifOrganizer</H1>
+<P>
+<H3>Version: 0.1 beta &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Date: 
+01/28/08</H3> 
+
+<TABLE WIDTH="70%" CELLSPACING="0" BORDER="1" CELLPADDING="7">
+  <TR>
+    <TD WIDTH="28%" VALIGN="TOP" BGCOLOR="#AABBCC">
+    <B>Platform</B></TD> 
+    <TD WIDTH="46%" VALIGN="TOP" BGCOLOR="#AABBCC">
+    <CENTER><B>File</B></CENTER></TD>
+    <TD WIDTH="16%" VALIGN="TOP" BGCOLOR="#AABBCC">
+    <CENTER><B>Size</B></CENTER></TD>
+  </TR>
+  <TR>
+    <TD WIDTH="28%" VALIGN="TOP">
+    MACOS (x86)</TD> 
+    <TD WIDTH="46%" VALIGN="TOP">
+    <P><CENTER><A HREF="download/motiforganizer.MAC.tar.gz">motiforganizer.MAC.tar.gz</A></CENTER></TD>
+    <TD WIDTH="16%" VALIGN="TOP">
+    <P><CENTER>133 kb</CENTER></TD>
+  </TR>
+  <TR>
+    <TD WIDTH="28%" VALIGN="TOP">
+    Linux (x86)</TD>
+    <TD WIDTH="46%" VALIGN="TOP">
+    <P><CENTER><A HREF="download/motiforganizer.LINUX.tar.gz">motiforganizer.LINUX.tar.gz</A></CENTER></TD>
+    <TD WIDTH="16%" VALIGN="TOP">
+    <P><CENTER>127 kb</CENTER></TD>
+  </TR>
+
+  <TR>
+    <TD WIDTH="28%" VALIGN="TOP">
+    64 Bit Linux</TD>
+    <TD WIDTH="46%" VALIGN="TOP">
+    <P><CENTER><A HREF="download/motiforganizer.LINUX64.tar.gz">motiforganizer.LINUX64.tar.gz</A></CENTER></TD>
+    <TD WIDTH="16%" VALIGN="TOP">
+    <P><CENTER>136 kb</CENTER></TD>
+  </TR>
+
+  <TR>
+    <TD WIDTH="28%" VALIGN="TOP">
+    Windows</TD>
+    <TD WIDTH="46%" VALIGN="TOP">
+    <P><CENTER><A HREF=""></A></CENTER></TD>                                         
+    <TD WIDTH="16%" VALIGN="TOP">
+    <P><CENTER>Coming soon</CENTER></TD>
+  </TR>
+
+  </TABLE>
+  <P>
+  <P>
+</CENTER>
+
+<!--#include virtual="/common/bottom.inc"-->
+
+</BODY>
+</HTML>

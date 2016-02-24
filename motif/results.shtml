@@ -1,0 +1,45 @@
+<HTML>
+<HEAD>
+  <TITLE>MotifOrganizer</TITLE>
+  <STYLE TYPE="text/css">@IMPORT URL("/common/pseudo-csg.css");</STYLE>
+</HEAD>
+<BODY>
+<!--#include virtual="/common/banner.inc" -->
+<!--#include virtual="/common/top.inc" -->
+<!--#include virtual="submenu.inc" -->
+<!--#include virtual="/common/topend.inc" -->
+<P><CENTER><TABLE CELLSPACING="0" BORDER="0" CELLPADDING="10" WIDTH="100%">
+  <TR>
+    <TD WIDTH="5%" VALIGN="TOP" ROWSPAN="10">
+    &nbsp;</TD> 
+    <TD COLSPAN="2" VALIGN="TOP" WIDTH="95%">
+    <H1><CENTER>MotifOrganizer clustering result on cisRED 30K motif set</CENTER></H1>
+    </TD>
+  </TR>
+  <TR>        
+    <TD VALIGN="TOP" WIDTH="20%">
+    <P ALIGN=RIGHT><A HREF="output.clean.txt">Motif/gene clusters.</A></TD>
+    <TD VALIGN="TOP" WIDTH="75%">
+	Full cisRED Human v.2 29.5K motif/gene clusters (1.0 MB).</TD>
+    </TR>
+
+  <TR>
+    <TD VALIGN="TOP" WIDTH="20%">
+    <P ALIGN=RIGHT><A HREF="names.clean.txt">Gene names.</A></TD>
+    <TD VALIGN="TOP" WIDTH="75%">
+    Full cisRED Human v.2 29.5K motif/gene names in each cluster (10.2 MB).</TD>
+    </TR>
+
+  <TR>
+    <TD VALIGN="TOP" WIDTH="20%">
+    <P ALIGN=RIGHT><A HREF="seq.clean.txt">Motif sequences.</A></TD>
+    <TD VALIGN="TOP" WIDTH="75%">
+	Full cisRED Human v.2 29.5K motif sequences in each cluster (1.5 MB)).</TD>
+    </TR>
+
+</TABLE>
+
+<!--#include virtual="/common/bottom.inc"-->
+
+</BODY>
+</HTML>

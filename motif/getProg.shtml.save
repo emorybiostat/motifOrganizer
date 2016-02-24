@@ -1,0 +1,87 @@
+<HTML>
+<HEAD>
+  <TITLE>CRC</TITLE>
+  <STYLE TYPE="text/css">@IMPORT URL("../styleCSG.css");</STYLE>
+</HEAD>
+<BODY>
+<!--#include file="banner.inc" -->
+<!--#include file="top.inc" -->
+<!--#include file="submenu.inc" -->
+<!--#include file="topend.inc" -->
+
+<CENTER>
+<H1>Downloadable binaries for CRC</H1>
+<P>
+<H3>Version: 1.1 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Date: 
+04/20/06</H3> 
+
+<TABLE WIDTH="70%" CELLSPACING="0" BORDER="1" CELLPADDING="7">
+  <TR>
+    <TD WIDTH="28%" VALIGN="TOP" BGCOLOR="#AABBCC">
+    <B>Platform</B></TD> 
+    <TD WIDTH="46%" VALIGN="TOP" BGCOLOR="#AABBCC">
+    <CENTER><B>File</B></CENTER></TD>
+    <TD WIDTH="16%" VALIGN="TOP" BGCOLOR="#AABBCC">
+    <CENTER><B>Size</B></CENTER></TD>
+  </TR>
+  <TR>
+    <TD WIDTH="28%" VALIGN="TOP">
+    Linux (x86)</TD> 
+    <TD WIDTH="46%" VALIGN="TOP">
+    <P><CENTER><A HREF="download/CRC.1.LINUX.tar.gz">CRC.1.LINUX.tar.gz</A></CENTER></TD>
+    <TD WIDTH="16%" VALIGN="TOP">
+    <P><CENTER>67 kb</CENTER></TD>
+  </TR>
+  <TR>
+    <TD WIDTH="28%" VALIGN="TOP">
+    SunOS</TD> 
+    <TD WIDTH="46%" VALIGN="TOP">
+    <P><CENTER><A HREF="download/CRC.1.SUN.tar.gz">CRC.1.SUN.tar.gz</A></CENTER></TD>
+    <TD WIDTH="16%" VALIGN="TOP">
+    <P><CENTER>63 kb</CENTER></TD>
+  </TR>
+  <TR>
+    <TD WIDTH="28%">
+    Macintosh OS X</TD> 
+    <TD WIDTH="46%">
+    <P><CENTER><A HREF="CRC.1.MAC.tar.gz">CRC.1.MAC.tar.gz</A></CENTER></TD>
+    <TD WIDTH="16%">
+    <P><CENTER>70 kb</CENTER></TD>
+  </TR>
+  <TR>
+    <TD WIDTH="28%">
+    Windows</TD> 
+    <TD WIDTH="46%">
+    <P><CENTER><A HREF="download/CRC.1.WIN.zip">CRC.1.WIN.zip</A></CENTER></TD>
+    <TD WIDTH="16%">
+    <P><CENTER>201 kb</CENTER></TD>
+  </TR>
+  <TR>
+    <TD WIDTH="28%">
+    Source code</TD>
+    <TD WIDTH="46%">
+    <P><CENTER><A HREF="download/CRC.1.source.gz">CRC.1.source.gz</A></CENTER></TD>
+    <TD WIDTH="16%">
+    <P><CENTER>201 kb</CENTER></TD>
+  </TR>
+
+  </TABLE>
+  <P>
+  <P>
+  <TABLE CELLSPACING="0" BORDER="0" CELLPADDING="10" WIDTH="100%">
+  <TR>
+    <TD COLSPAN="3" VALIGN="TOP" WIDTH="95%">
+	<B>Installation Instructions.</B> If required, create a sub-directory. Download the 
+	CRC package that suits your OS into that directory. <A HREF="unpack.shtml">Unpack</A> 
+	the CRC package in the directory. The CRC package includes example files, the manual
+ 	and the executable. The executable files is called CRC. For convenience you may wish 
+	to add CRC to the executable PATH of your operating system.
+    </TD>
+  </TR>
+</TABLE>
+</CENTER>
+
+<!--#include file="bottom.inc"-->
+
+</BODY>
+</HTML>

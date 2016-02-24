@@ -1,0 +1,160 @@
+<HTML>
+<HEAD>
+  <TITLE>FESTA: Fragmented Exhaustive Search for TAgSNPs</TITLE>
+  <STYLE TYPE="text/css">@IMPORT URL("/common/pseudo-csg.css");</STYLE>
+</HEAD>
+<BODY>
+<!--#include virtual="/common/banner.inc" -->
+<!--#include virtual="/common/top.inc" -->
+<!--#include virtual="submenu.inc" -->
+<!--#include virtual="/common/topend.inc" -->
+<P><CENTER>
+<TABLE CELLSPACING="0" BORDER="0" CELLPADDING="10" WIDTH="100%">
+  <TR>
+    <TD WIDTH="5%" VALIGN="TOP" ROWSPAN="10">
+    &nbsp;</TD> 
+    <TD COLSPAN="2" VALIGN="TOP" WIDTH="95%">
+    <H2><CENTER>Updates, Bugs and Previous Versions</CENTER></H2>
+    </TD>
+  </TR>
+  <TR>
+    <TD COLSPAN="2" VALIGN="TOP" WIDTH="95%">
+	This page contains the list of <a href="#update">updates</a> to each version of FESTA. It also contains the list of reported/known <a
+	href="#bugs">bugs</a> in FESTA. 
+	<BR/>You can also download the <a href="#prev">previous versions</a> of FESTA here.
+    </TD>  
+  </TR>
+</TABLE>
+<P>
+<H3><CENTER><A name="update">Update Log</A></CENTER></H3>
+<TABLE CELLSPACING="0" BORDER="1" CELLPADDING="2" WIDTH="90%" HEIGHT=>
+  <TR>
+    <TD WIDTH="15%" VALIGN="TOP" BGCOLOR="#AABBCC"><CENTER><B>Date</B></CENTER></TD>
+    <TD WIDTH="15%" VALIGN="TOP" BGCOLOR="#AABBCC"><CENTER><B>Version Upgrade</B></CENTER></TD>
+    <TD WIDTH="70%" VALIGN="TOP" BGCOLOR="#AABBCC"><CENTER><B>Updates</B></CENTER></TD> 
+  </TR>
+  <TR>
+    <TD WIDTH="15%" VALIGN="TOP"><CENTER>12/24/2005</CENTER></TD>
+    <TD WIDTH="15%" VALIGN="TOP"><CENTER>1.0 <FONT size="+1">&rarr;</FONT> 2.0</CENTER></TD>
+    <TD WIDTH="70%" VALIGN="TOP">
+      <UL>
+        <LI>Additions:
+          <OL type="i">
+            <LI>Provision to specify target SNPs to be tagged.</LI>
+            <LI>Allowed to specify multiple target SNP ranges using a range file. </LI>
+	    <LI>Allowed for a user defined property for each SNP (using the map file). This property can be used 
+	    	to choose among solutions. By default, this option also outputs the two tagSNP sets obtained by maximizing and minimizing this
+		property among all the tagSNP sets. <i>The --nsols option has to be specified to obtain these sets.</i></LI>
+	    <LI>Added a --c5 option, which gives all 5 criteria solutions. This, in effect replaces the -c option of old. Now, the -c option 
+	    only gives 3 criteria solutions.</LI>
+	    <LI>Added a default tagSNP set to the output files. This is one of the many tagSNP sets found by FESTA. <i>Please note that this
+	    set does not possess any special property.</i></LI>
+          </OL>
+	</LI>
+        <LI>Modifications:
+	  <OL type="i">
+	    <LI>Changed the way greedy-exhaustive algorithm works. Reversed the order of greedy and exhaustive searches. Now, an exhaustive
+	    search is performed first and a greedy alogrithm is applied to the residual graphs. The limit on the number of exhaustive searches
+	    is less than the computational limit that is use-specifiable. This limit is currently set to 10,000 solutions.</LI>
+	    <LI>Changed the -c option. It used to give 5 tag set solutions. It now gives only 3 solutions, which correspond to the first three
+	    solutions earlier. </LI>
+	    <LI>Changed the output naming scheme. The -o option now acts as a prefix for the output files. The various output files are
+	    preceded by this prefix string.</LI>
+	  </OL>
+	</LI> 
+	<LI>Deletions:
+	  <OL type="i">
+	    <LI>Removed the -N option to count number of double coverage solutions.</LI>
+	    <LI>Removed the -D option for coverage on a dense map using seed from a sparse map.</LI>
+	  </OL>
+	</LI>
+    </UL>
+    </TD> 
+  </TR>
+</TABLE>
+<br/>
+<br/>
+<H3><CENTER><A name="bugs">Bug Log</A></CENTER></H3>
+<TABLE CELLSPACING="0" BORDER="1" CELLPADDING="2" WIDTH="90%" HEIGHT=>
+  <TR>
+    <TD WIDTH="15%" VALIGN="TOP" BGCOLOR="#AABBCC"><CENTER><B>Date Found</B></CENTER></TD>
+    <TD WIDTH="15%" VALIGN="TOP" BGCOLOR="#AABBCC"><CENTER><B>Version</B></CENTER></TD>
+    <TD WIDTH="15%" VALIGN="TOP" BGCOLOR="#AABBCC"><CENTER><B>Date Resolved</B></CENTER></TD>
+    <TD WIDTH="55%" VALIGN="TOP" BGCOLOR="#AABBCC"><CENTER><B>Description</B></CENTER></TD> 
+  </TR>
+  <TR>
+    <TD WIDTH="15%" VALIGN="TOP">11/7/2005</TD>
+    <TD WIDTH="15%" VALIGN="TOP">1.0</TD>
+    <TD WIDTH="15%" VALIGN="TOP">11/16/2005</TD>
+    <TD WIDTH="55%" VALIGN="TOP">The computational times shot through the roof when a large exclude list was given. The problem was with the
+    way FESTA handled the exclude list along with solution select with inbuilt criteria. An empty precinct causes FESTA to stall and search
+    for solutions!! Jason Laramie of Boston University School of Medicine pointed this out. We would like to thank him for letting us know. 
+    </TD> 
+  </TR>
+</TABLE>
+<br/>
+<br/>
+<H3><CENTER><A name="prev">Previous Versions</A></CENTER></H3>
+<TABLE WIDTH="90%" CELLSPACING="0" BORDER="1" CELLPADDING="7">
+  <TR>
+    <TD WIDTH="28%" VALIGN="TOP" BGCOLOR="#AABBCC">
+    <B>Platform</B></TD> 
+    <TD WIDTH="36%" VALIGN="TOP" BGCOLOR="#AABBCC">
+    <CENTER><B>File</B></CENTER></TD>
+    <TD WIDTH="16%" VALIGN="TOP" BGCOLOR="#AABBCC">
+    <CENTER><B>Size</B></CENTER></TD>
+  </TR>
+  <TR>
+    <TD COLSPAN="3" VALIGN="TOP">
+    <CENTER><B>Version: 1.0 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Date: 27th June 2005</B></CENTER>
+    </TD>
+  </TR>  
+  <TR>
+    <TD WIDTH="28%" VALIGN="TOP">
+    Linux (x86)</TD> 
+    <TD WIDTH="46%" VALIGN="TOP">
+    <P><CENTER><A HREF="download/Ver1.0/FESTA_linux.tar.gz">FESTA_linux.tar.gz</A></CENTER></TD>
+    <TD WIDTH="16%" VALIGN="TOP">
+    <P><CENTER>471 KB</CENTER></TD>
+  </TR>
+  <TR>
+    <TD WIDTH="28%" VALIGN="TOP">
+    SunOS</TD> 
+    <TD WIDTH="46%" VALIGN="TOP">
+    <P><CENTER><A HREF="download/Ver1.0/FESTA_sun5.9.tar.gz">FESTA_sun5.9.tar.gz</A></CENTER></TD>
+    <TD WIDTH="16%" VALIGN="TOP">
+    <P><CENTER>436 KB</CENTER></TD>
+  </TR>
+  <!--TR>
+    <TD WIDTH="38%">
+    Windows</TD> 
+    <TD WIDTH="36%">
+    <P><CENTER><A HREF="Windows-qtdt.tar.gz">Windows-qtdt.tar.gz</A></CENTER></TD>
+    <TD WIDTH="16%">
+    <P><CENTER>321 kb</CENTER></TD>
+  </TR-->
+  <TR>
+    <TD WIDTH="28%">
+    Macintosh OS X</TD> 
+    <TD WIDTH="46%">
+    <P><CENTER><A HREF="download/Ver1.0/FESTA_mac.tar.gz">FESTA_mac.tar.gz</A></CENTER></TD>
+    <TD WIDTH="16%">
+    <P><CENTER>650 KB</CENTER></TD>
+  </TR>
+  <TR>
+    <TD WIDTH="28%">
+    Unix</TD> 
+    <TD WIDTH="46%">
+    <P><CENTER><A HREF="download/Ver1.0/FESTA_unix.tar.gz">FESTA_unix.tar.gz</A></CENTER></TD>
+    <TD WIDTH="16%">
+    <P><CENTER>711 KB</CENTER></TD>
+  </TR>
+  </TABLE>
+
+
+</CENTER>
+
+<!--#include virtual="/common/bottom.inc"-->
+
+</BODY>
+</HTML>

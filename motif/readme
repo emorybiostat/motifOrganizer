@@ -1,0 +1,39 @@
+filteredmember.mfa copied from mac: ~/Documents/project/bmc/transfac/debug/
+mv filteredmember.mfa transfac.mfa
+
+mv jaspar4.filtered.mfa jaspar.mfa 
+mv jaspar4.mfa jaspar.full.mfa
+
+all copied from mac:~/Documents/software/motiforganizer/cisred 
+mv all cisred.30K.mfa
+gzip cisred.30K.mfa
+
+
+JASPAR:
+jaspar4.mfa full set 1716
+jaspar4_filtered.mfa subset 1128
+
+host8-170:~/Documents/project/bmc/jaspar qin$ ls -ltr *.mfa
+-rw-r--r--   1 qin  qin  90522 Apr  7  2007 jaspar4.mfa
+
+host8-170:~/Documents/project/bmc/jaspar/subset qin$ ls -ltr *.mfa
+-rw-r--r--   1 qin  qin  62734 Apr 13  2007 jaspar4_filtered.mfa
+
+
+TRANSFAC:
+transfac_mammals.mfa full set 7641
+filteredmember.mfa subset 5452.
+
+host8-170:~/Documents/project/bmc/transfac qin$ ls -ltr *.mfa
+-rw-r--r--   1 qin  qin  367092 Jan 26  2007 transfac_mammals.mfa
+
+host8-170:~/Documents/project/bmc/transfac/debug qin$ ls -ltr *.mfa
+-rw-r--r--   1 qin  qin  272842 Mar 20  2007 filteredmember.mfa
+
+cisRED:
+host8-170:~/Documents/software/motiforganizer/cisred qin$ grep ENSG all | wc -l 
+  194577
+host8-170:~/Documents/software/motiforganizer/cisred qin$ grep ENSG cisred_8_16__* | wc -l 
+  194577
+
+

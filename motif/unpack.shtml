@@ -1,0 +1,44 @@
+<HTML>
+<HEAD>
+  <TITLE>CRC</TITLE>
+  <STYLE TYPE="text/css">@IMPORT URL("/common/pseudo-csg.css");</STYLE>
+</HEAD>
+<BODY>
+<!--#include virtual="/common/banner.inc" -->
+<!--#include virtual="/common/top.inc" -->
+<!--#include virtual="submenu.inc" -->
+<!--#include virtual="/common/topend.inc" -->
+<P>
+<CENTER>
+<TABLE CELLSPACING="0" BORDER="0" CELLPADDING="10" WIDTH="100%">
+  <TR>
+    <TD WIDTH="5%" VALIGN="TOP" ROWSPAN="10">
+    &nbsp;</TD> 
+    <TD COLSPAN="2" VALIGN="TOP" WIDTH="95%">
+    <H2>CRC - Unpacking procedure</H2>
+    </TD>
+  </TR>
+  <TR>
+    <TD COLSPAN="2" VALIGN="TOP" WIDTH="95%">
+	CRC downloads are in TAR archive format and compressed with GZIP. To unpack a download in this 
+format, follow these instructions.
+    </TD>
+  </TR>
+  <TR>
+    <TD COLSPAN="2" VALIGN="TOP" WIDTH="95%">
+    <OL>
+    <LI>For this example we will assume you downloaded the archive CRC.linux.tar.gz.
+    <LI>If required, create an appropriate sub-directory and place the archive there using the <B>mkdir</B> and <B>mv</B> unix commands. 
+    <LI>Use <B>gunzip CRC.linux.tar.gz</B> to decompress the zipped file.
+    <LI>Unpack the CRC archive by running <B>tar xvf CRC.linux.tar</B> (without the <B>.gz</B> 
+extension). This will extract the CRC package to the current directory.
+    </OL>
+    </TD>
+  </TR>
+</TABLE>
+</CENTER>
+
+<!--#include virtual="/common/bottom.inc"-->
+
+</BODY>
+</HTML>

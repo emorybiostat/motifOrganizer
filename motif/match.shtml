@@ -1,0 +1,69 @@
+<HTML>
+<HEAD>
+  <TITLE>MotifOrganizer</TITLE>
+  <STYLE TYPE="text/css">@IMPORT URL("/common/pseudo-csg.css");</STYLE>
+</HEAD>
+<BODY>
+<!--#include virtual="/common/banner.inc" -->
+<!--#include virtual="/common/top.inc" -->
+<!--#include virtual="submenu.inc" -->
+<!--#include virtual="/common/topend.inc" -->
+<P><CENTER><TABLE CELLSPACING="0" BORDER="0" CELLPADDING="10" WIDTH="100%">
+  <TR>
+    <TD WIDTH="5%" VALIGN="TOP" ROWSPAN="10">
+    &nbsp;</TD> 
+    <TD COLSPAN="2" VALIGN="TOP" WIDTH="95%">
+    <H1><CENTER>Match MotifOrganizer clustering result on cisRED 30K motif set to JASPAR and TRANSFAC models</CENTER></H1>
+    </TD>
+  </TR>
+
+  <TR>        
+    <TD VALIGN="TOP" WIDTH="20%">
+    <P ALIGN=RIGHT><A HREF="matcompareLib.html">MatCompare --CORE</A></TD>
+    <TD VALIGN="TOP" WIDTH="75%">
+ 	Match to JASPAR CORE/TRANSFAC model using MatComapre.</TD>
+    </TR>
+
+  <TR>
+    <TD VALIGN="TOP" WIDTH="20%">
+    <P ALIGN=RIGHT><A HREF="matcomparePhylo.html">MatCompare -- PHYLO</A></TD>                                     
+    <TD VALIGN="TOP" WIDTH="75%">
+        Match to JASPAR PHYLOFACTS model using MatComapre.</TD>    
+    </TR>
+
+  <TR>
+    <TD VALIGN="TOP" WIDTH="20%">
+    <P ALIGN=RIGHT><A HREF="MACOLib.html">MACO --CORE</A></TD>
+    <TD VALIGN="TOP" WIDTH="75%">
+        Match to JASPAR CORE/TRANSFAC model using MACO.</TD>
+    </TR>
+
+  <TR>
+    <TD VALIGN="TOP" WIDTH="20%">
+    <P ALIGN=RIGHT><A HREF="MACOPhylo.html">MACO -- PHYLO</A></TD>                             
+
+    <TD VALIGN="TOP" WIDTH="75%">
+        Match to JASPAR PHYLOFACTS model using MACO.</TD>
+    </TR>
+
+  <TR>
+    <TD VALIGN="TOP" WIDTH="20%">
+    <P ALIGN=RIGHT><A HREF="OverlapLib.html">Double Hits --CORE</A></TD>
+    <TD VALIGN="TOP" WIDTH="75%">
+        Match to JASPAR CORE/TRANSFAC model using both MatComapre and MACO.</TD>
+    </TR>
+
+  <TR>
+    <TD VALIGN="TOP" WIDTH="20%">
+    <P ALIGN=RIGHT><A HREF="OverlapPhylo.html">Double Hits -- PHYLO</A></TD>                             
+
+    <TD VALIGN="TOP" WIDTH="75%">
+        Match to JASPAR PHYLOFACTS model using both MatComapre and MACO.</TD>
+    </TR>
+
+</TABLE>
+
+<!--#include virtual="/common/bottom.inc"-->
+
+</BODY>
+</HTML>

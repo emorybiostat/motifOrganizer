@@ -1,0 +1,49 @@
+<HTML>
+<HEAD>
+  <TITLE>MotifOrganizer</TITLE>
+  <STYLE TYPE="text/css">@IMPORT URL("/common/pseudo-csg.css");</STYLE>
+</HEAD>
+<BODY>
+<!--#include virtual="/common/banner.inc" -->
+<!--#include virtual="/common/top.inc" -->
+<!--#include virtual="submenu.inc" -->
+<!--#include virtual="/common/topend.inc" -->
+<P><CENTER><TABLE CELLSPACING="0" BORDER="0" CELLPADDING="10" WIDTH="100%">
+  <TR>
+    <TD WIDTH="5%" VALIGN="TOP" ROWSPAN="10">
+    &nbsp;</TD> 
+    <TD COLSPAN="2" VALIGN="TOP" WIDTH="95%">
+    <H1><CENTER>Datasets used in the study</CENTER></H1>
+    </TD>
+  </TR>
+  <TR>
+     
+    <TD VALIGN="TOP" WIDTH="20%">
+    <P ALIGN=RIGHT><A HREF="jaspar.mfa">JASPAR 4</A></TD> 
+    <TD VALIGN="TOP" WIDTH="75%">
+    1152 motifs, 63K.
+    </TD>
+  </TR>
+
+  <TR>
+     
+    <TD VALIGN="TOP" WIDTH="20%">
+    <P ALIGN=RIGHT><A HREF="transfac.mfa">TRANSFAC</A></TD> 
+    <TD VALIGN="TOP" WIDTH="75%">
+    5452 motifs, 273K.</TD>
+  </TR>
+
+  <TR>
+
+    <TD VALIGN="TOP" WIDTH="20%">
+    <P ALIGN=RIGHT><A HREF="cisred.30K.mfa.gz">cisRED</A></TD>
+    <TD VALIGN="TOP" WIDTH="75%">
+    29490 motifs, 3.8MB (gzipped).</TD>
+  </TR>
+
+</TABLE>
+
+<!--#include virtual="/common/bottom.inc"-->
+
+</BODY>
+</HTML>
